@@ -1,0 +1,100 @@
+.post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.perfil-circle {
+  max-width: 40 !important;
+  max-height: 40 !important;
+}
+.post-head {
+  display: flex;
+  width: 100%;
+}
+
+.post-head-information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 10px 10px 20px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.img-avatar {
+  border: 2px solid purple;
+  padding: 1px;
+  border-radius: 50%;
+}
+
+.head-post-username {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #444;
+  font-weight: 600;
+}
+
+.post-content {
+  width: 100%;
+}
+
+.post-image {
+  color: transparent;
+  width: 100%;
+  height: 100%;
+}
+
+.post-description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.post-description-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 10px 10px 20px;
+}
+
+.post-description-likes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 3px 10px 3px 20px;
+  font-size: 14px;
+  color: #444;
+  font-weight: 600;
+}
+
+.post-description-text {
+  margin: 3px 10px 3px 20px;
+  font-size: 14px;
+  color: #444;
+}
+
+.post-description-username {
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.post-description-title{
+  margin: 10px 0px 7px 0px;
+  font-size: 11px;
+  color: #444;
+}
+
+.post-group-descriptio-time {
+  margin: 3px 10px 3px 20px;
+  font-size: 14px;
+  color: #444;
+}
+
+.post-description-time {
+  margin: 10px 10px 7px 7px;
+  font-size: 11px;
+  color: #444;
+}

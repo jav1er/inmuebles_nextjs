@@ -1,0 +1,19 @@
+@import "./colors.scss";
+
+//components
+@import "../layout/Layout.scss";
+@import "../components/ContentMain/ContentMain.scss";
+@import "../components/Post/Post.scss";
+@import "../components/Login/Login.scss";
+@import "../components/Register/Register.scss";
+@import "../components/SearchBar/SearchBar.scss";
+@import "../components/Perfil/Perfil.scss";
+@import "../components/CustomModal/CustomModal.scss";
+@import "../components/CreatePost/CreatePost.scss";
+@import "../components/UpdatePost/UpdatePost.scss";
+
+//pages
+@import "../pages/dashboard.scss";
+@import "../pages/perfil.scss";
+@import "../pages/admin_panel.scss";
+@import "../pages/property.scss";
