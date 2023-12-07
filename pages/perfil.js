@@ -12,7 +12,6 @@ import { useLocalStorage } from "../hooks/useLocalStorage";
 import { useQueryClient } from "@tanstack/react-query";
 
 import GetPosts from "../helpers/getPosts";
-import downloadFile from "../helpers/downloadFile";
 import useInfiniteQueryCustom from "../hooks/useInfiniteQueryCustom";
 
 function PerfilPage() {
